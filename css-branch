@@ -1,0 +1,45 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: consolas;
+    /* overflow: hidden;  enleve la barre de défilement */
+}
+nav
+{
+    display: flex;
+    min-height: 60vh;
+}
+ul 
+{
+    position: fixed;
+    right: 22vw;
+    top: 10vh;
+    transform: translateY(-50%);
+    display: flex;
+}
+ul li 
+{
+    list-style: none;
+}
+ul li a 
+{
+    position: relative;
+    font-size: 2em;
+    color: #000000;
+    text-shadow: #004aad 0px 0px 20px;
+    text-decoration: none;
+    margin: 10px 0;
+    display: inline-block;
+    padding: 0 20px;
+}
+#marker
+{
+    position: absolute;
+    top: 0;
+    height: 40px;
+    margin-top: 10px;
+    background:	#00BFFF;
+    border-radius: 2px;
+    transition: 0.5s;
+}
