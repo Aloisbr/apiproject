@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/artist.css">
     <script src="js/artist.js" defer></script>
     <title>Artist</title>
 </head>
@@ -17,9 +18,40 @@
         </div>
     </div>
     <div id="container">
-        <div>
-            <p>Salut</p>
-        </div>
+            <div id="sidebar">
+            </div>
+            <div id="main" class='none'>
+                <div id="a-column">
+                    <div class="img">
+                        <img src="" alt="profile" id="profile" height="300" width="200">
+                    </div>
+                    <div class="ip">
+                    <h3>Informations personnelles</h3>
+                        <div>
+                            <p>Genre :</p>
+                            <p id="gender"></p>
+                        </div>
+                        <div>
+                            <p>Date de naissance :</p>
+                            <p id="birthday"></p>
+                        </div>
+                        <div>
+                            <p>Lieu de naissance</p>
+                            <p id="place_of_birth"></p>
+                        </div>
+                    </div>
+                </div>
+                <div id="b-column">
+                    <div class='biography'>
+                        <h1 id="name"></h1>
+                        <h2>Biographie</h2>
+                        <p id="biography"></p>
+                    </div>
+                    <div id="famousfor">
+
+                    </div>
+                </div>
+            </div>
     </div>
 </body>
 </html>
