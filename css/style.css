@@ -1,0 +1,10 @@
+#topbar {
+  display: flex;
+  width: 100%;
+}
+#topbar a {
+  width: 10%;
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+}
