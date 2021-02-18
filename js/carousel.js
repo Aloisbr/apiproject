@@ -7,7 +7,8 @@ class Carousel {
             loop: false
         }, options);
         let children = [].slice.call(element.children);
-        this.isMobile = true;
+        this.isSmall = false;
+        this.isMobile = false;
         this.currentItem = 0;
         this.root = this.createDivWithClass('carousel');
         this.container = this.createDivWithClass('carousel__container');
@@ -82,14 +83,19 @@ class Carousel {
     }
 
     onWindowResize () {
-        let mobile = window.innerWidth < 800;
+        let mobile = window.innerWidth < 1200;
         let s = window.innerWidth < 1400;
         if (mobile !== this.isMobile) {
             this.isMobile = mobile;
             this.setStyle();
             this.moveCallbacks.forEach(cb => cb(this.currentItem));
         }
-    }
+        if (s !== this.isSmall) {
+            this.isSmall = s;
+            this.setStyle();
+            this.moveCallbacks.forEach(cb => cb(this.currentItem));
+        }
+    }   
 
     createDivWithClass(className) {
         let div = document.createElement('div');
@@ -98,10 +104,22 @@ class Carousel {
     }
 
     get slidesToScroll () {
-        return this.isMobile ? 1 : this.options.slidesToScroll;
+        if(this.isMobile) {
+            return 1;
+        } else if (this.isSmall) {
+            return 1;
+        } else {
+            return this.options.slidesToScroll;
+        }
     }
 
     get slidesVisible() {
-        return this.isMobile ? 1 : this.options.slidesVisible;
+        if(this.isMobile) {
+            return 1;
+        } else if (this.isSmall) {
+            return 2;
+        } else {
+            return this.options.slidesVisible;
+        }
     }
 }
