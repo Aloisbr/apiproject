@@ -1,0 +1,59 @@
+* {
+  font-family: -webkit-pictograph;
+}
+
+#topbar {
+  display: flex;
+  width: 100%;
+  background-color: black;
+}
+#topbar a {
+  width: 10%;
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  color: white;
+ 
+}
+.all {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+}
+#movies {
+  width: 50%;
+  height: 100vh;
+  background-color: white;
+}
+#movies ul {
+  margin-top: 5px;
+  padding-left: 0px;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  list-style: none;
+}
+#movies ul li {
+  padding: 10px;
+  background-color:black;
+  color: white;
+}
+#movies ul li:hover {
+  cursor: pointer;
+}
+#infos {
+ padding: 10px;
+  width: 50%;
+  height: 100vh;
+}
+#infos div {
+  display: flex;
+}
+p {
+  background-color: white;
+  color: black;
+  font-size: large;
+}
+
+
