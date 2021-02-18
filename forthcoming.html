@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/forthComming.css">
     <script src="js/forthcoming.js" defer></script>
     <title>Fav</title>
@@ -14,33 +15,34 @@
             <a href="artist.html">Artist</a>
             <a href="fav.html">Fav</a>
             <a href="trends.html">Trends</a>
-            <a href="forthcoming.html">Forthcoming</a>
+            <a href="forthcoming.html">Upcoming</a>
         </div>
     </div>
-    <aside id="movies" data-id="5"></aside>
-    <div id="infos" class="none">
-        <h1 id="name"></h1>
-        <div>
-            <p>Title:</p>
-            <p id="title" class="infos"></p>
+    <div id="main">
+        <aside id="movies" data-id="5"></aside>
+        <div id="infos" class="none">
+            <h1 id="name"></h1>
+            <div>
+                <p class="title">Title:</p>
+                <p id="title" class="infos"></p>
+            </div>
+            <div>
+                <p class="title">Overview: </p>
+                <p id="overview" class="infos"></p>
+            </div>
+            <div>
+                <p class="title">Release date: </p>
+                <p id="release_date" class="infos"></p>
+            </div>
+            <div>
+                <p class="title">Original language: </p>
+                <p id="original_language" class="infos"></p>
+            </div>
+            <div>
+                <p class="title">Vote average: </p>
+                <p id="vote_average" class="infos"></p>
+            </div>    
         </div>
-        <div>
-            <p>Overview: </p>
-            <p id="overview" class="infos"></p>
-        </div>
-        <div>
-            <p>Release date: </p>
-            <p id="release_date" class="infos"></p>
-        </div>
-        <div>
-            <p>Original language: </p>
-            <p id="original_language" class="infos"></p>
-        </div>
-        <div>
-            <p>Vote average: </p>
-            <p id="vote_average" class="infos"></p>
-        </div>
-
     </div>
-</body>
-</html>
+    </body>
+    </html>

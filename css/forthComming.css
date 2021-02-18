@@ -1,10 +1,45 @@
-#topbar {
-  display: flex;
-  width: 100%;
+#main {
+    display: flex;
 }
-#topbar a {
-  width: 10%;
+
+#movies {
+  width: 17%;
+  background-color: #1f1f23;
   display: flex;
-  justify-content: space-around;
-  text-decoration: none;
+  justify-content: center;
+}
+
+#movies ul {
+    width: 100%;
+    height: 1100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+
+#movies ul li {
+width: 45%;
+  height: 6%;
+  color: white;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+#infos {
+    display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 400px;
+}
+
+#movies ul li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 1.2em;
 }
