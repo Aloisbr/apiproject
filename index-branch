@@ -31,34 +31,7 @@
     </script>
 <body>
      <h3>Trends</h3>
-    <br>
-    <br>
-    <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/1sBx2Ew4WFsa1YY32vlHt079O03.jpg" height="12%" width="12%"></src><br>
-    <h5>Lucifer</h5>
-    <p>25 janv. 2016</p>
-    <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/zdkJs9j6yKo9di0kjtctM01fSMv.jpg" height="12%" width="12%"></src><br>
-    <h5>À tous les garçons : pour toujours et à jamais</h5>
-    <p>12 févr. 2021</p>
-    <img src="https://www.themoviedb.org/t/p/w440_and_h660_face/kdEorjrPno4Cn7HYVN2DA0f3ocr.jpg" height="12%" width="12%"></src><br>
-    <h5>Wonder Woman 1984 </h5>
-    <p>10 févr. 2021</p>
-    <img src="https://www.themoviedb.org/t/p/w440_and_h660_face/iIgr75GoqFxe1X5Wz9siOODGe9u.jpg" height="12%" width="12%"></src><br>
-    <h5>Judas and the Black Messiah</h5>
-    <p>12 févr. 2021</p>
-    <img src="https://www.themoviedb.org/t/p/w440_and_h660_face/i9Zv3Ml4NBqZB3p8N5NbtaInbbx.jpg" height="12%" width="12%"></src><br>
-    <h5>Freaky</h5>
-    <p>20 janv. 2021</p>
-    <img src="https://www.themoviedb.org/t/p/w440_and_h660_face/mI7sIBqIsCsTjLvuiVVTfvW3FLU.jpg" height="12%" width="12%"></src><br>
-    <h5>Jumanji: Level One</h5>
-    <p>20 janv. 2021</p>
-    <img src="https://www.themoviedb.org/t/p/w440_and_h660_face/5hmaACPJfI2M0v38DeltW3dSggT.jpg" height="12%" width="12%"></src><br>
-    <h5>Fear of Rain</h5>
-    <p>12 févr. 2021</p>
-    <img src="https://www.themoviedb.org/t/p/w440_and_h660_face/qRhDgHAMNz4WfgEDYXbnjQhjvxr.jpg" height="12%" width="12%"></src><br>
-    <h5>Le Vétéran</h5>
-    <p>17 févr. 2021</p>
-    <img src="https://www.themoviedb.org/t/p/w440_and_h660_face/6RNNG1r7LEkujQr526QIK0BJmjc.jpg" height="12%" width="12%"></src><br>
-    <h5>Music</h5>
+        <div id="movies"></div>
     <p>10 févr. 2021</p>
     <img src="https://www.themoviedb.org/t/p/w440_and_h660_face/h44kv5nD9jIB3m87chbQiTZexsw.jpg" height="12%" width="12%"></src><br>
     <h5>Promising Young Woman</h5>
