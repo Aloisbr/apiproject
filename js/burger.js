@@ -37,6 +37,10 @@ burgerMenu.addEventListener(
   false
 );
 
+if(window.innerWidth > 1100) {
+    document.querySelector("#group").style.display = 'none';
+}
+
 window.addEventListener('resize', () => {
     let burger = document.querySelector('#group')
     let menu = document.querySelector("#header")

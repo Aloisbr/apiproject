@@ -5,22 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Accueil</title>
-    <script>
-        const marker = document.querySelector('#marker');
-        const item = document.querySelectorAll('ul li a');
-
-        function indicator(e){
-            marker.style.left = e.offsetLeft+'px';
-            marker.style.width = e.offsetWidth+'px';
-        }
-
-        item.forEach(link => {
-            link.addEventListener('mousemove', (e) => {
-                indicator(e.target);
-            })
-        })
-    </script>
 </head>
 <body>
     <div id="header">
