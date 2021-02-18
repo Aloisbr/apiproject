@@ -3,15 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trends</title>
+    <link rel="stylesheet" href="css/trends.css">
+    <script src="js/trends.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Ballet&family=Brygada+1918:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap" rel="stylesheet">
+    <title>Top Most Popular Movies</title>
 </head>
 <body>
-    <div id="header">
-        <div id="topbar">
-            <a href="artist.html">Artist</a>
-            <a href="fav.html">Fav</a>
-            <a href="trends.html">Trends</a>
-            <a href="forthcoming.html">Forthcoming</a>
+        <nav id="menu">
+            <ul class="ul">
+                <li><a href="index.html">Index</a></li>
+                <li><a href="artist.html">The Actors</a></li>
+                <li><a href="fav.html">Favorite Movies</a></li>
+                <li><a href="forthcoming.html">Forthcoming</a></li>
+            </ul>
+        </nav>
+        <div id="group">
+            <header id="header">
+                <div id="menu-burger">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </header>
+        </div>
+    <h1>Most Popular Movies 2020/2021</h1>
+    <div id="container">
+        <div class="display-infos">
+            <div>
+               <p class="section">Vote Average:</p>
+               <p id="vote_average" class="infos"></p>
+           </div>
+           <div>
+               <p class="section">Release date: </p>
+               <p id="release_date" class="infos"></p>
+           </div>
+           <div>
+               <img src="" id="poster_path" class="infos"></p>
+           </div>
+           <div>
+               <p class="section">Overview:</p>
+               <p id="overview" class="infos"></p>
+           </div>
         </div>
     </div>
 </body>
