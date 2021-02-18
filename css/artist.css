@@ -9,14 +9,14 @@
 }
 #sidebar {
   width: 17%;
-  height: 150vh;
+  height: 1100px;
   background-color: #1f1f23;
   display: flex;
   justify-content: center;
 }
 #sidebar ul {
   width: 100%;
-  height: 90%;
+  height: 1100px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,23 +26,22 @@
 #sidebar ul li {
   width: 45%;
   height: 6%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   color: white;
+  display: flex;
+  flex-direction: column-reverse;
 }
 #sidebar ul li:hover {
   cursor: pointer;
   text-decoration: underline;
 }
 #main {
-  width: 70%;
+  width: 80%;
   height: 100%;
   background-color: #fff;
 }
 #main #a-column {
-  width: 35%;
-  height: 150vh;
+  width: 30%;
+  height: 1100px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -63,19 +62,20 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding-left: 55%;
+  align-items: center;
+}
+#main #a-column .ip p {
+  display: flex;
+  justify-content: center;
 }
 #main #b-column {
   width: 65%;
-  height: 150vh;
+  height: 1100px;
 }
 #main #b-column .biography {
   width: 100%;
-  height: 40%;
+  height: 42%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-}
-#main #b-column .biography p {
-  margin-top: -9%;
+  justify-content: space-evenly;
 }
