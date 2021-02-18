@@ -83,11 +83,11 @@ class Carousel {
 
     onWindowResize () {
         let mobile = window.innerWidth < 800;
+        let s = window.innerWidth < 1400;
         if (mobile !== this.isMobile) {
             this.isMobile = mobile;
             this.setStyle();
             this.moveCallbacks.forEach(cb => cb(this.currentItem));
-            
         }
     }
 
