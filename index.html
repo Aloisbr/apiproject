@@ -4,7 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
     <title>Accueil</title>
+    <script>
+        const marker = document.querySelector('#marker');
+        const item = document.querySelectorAll('ul li a');
+
+        function indicator(e){
+            marker.style.left = e.offsetLeft+'px';
+            marker.style.width = e.offsetWidth+'px';
+        }
+
+        item.forEach(link => {
+            link.addEventListener('mousemove', (e) => {
+                indicator(e.target);
+            })
+        })
+    </script>
 </head>
 <body>
     <div id="header">
@@ -15,8 +31,12 @@
             <a href="forthcoming.html">Forthcoming</a>
         </div>
     </div>
-    <div id="main">
-
+    <h3>Trends</h3>
+    <div id="movies"></div>
+        <p>10 févr. 2021</p>
+        <img src="https://www.themoviedb.org/t/p/w440_and_h660_face/h44kv5nD9jIB3m87chbQiTZexsw.jpg" height="12%" width="12%"></src><br>
+        <h5>Promising Young Woman</h5>
+        <p>17 févr. 2021</p>
     </div>
     
 </body>
